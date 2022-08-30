@@ -6,6 +6,7 @@
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rollup -c",
     "test": "jest --coverage",
     "prepublishOnly": "npm run build"
